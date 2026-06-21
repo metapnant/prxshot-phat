@@ -15,6 +15,7 @@ What's New in v0.44:
 
 All credit for the original core C/C++ architecture goes to Codestation.
 
+
 This is a screenshot plugin that doesn't need to pause the game to take
 the capture (useful for online gaming) and classifies the images
 per game using their name and icons.
@@ -46,6 +47,7 @@ The prxshot directory comes with these files:
   same dimensions)
 * xmb.sfo: template to make folder icon for screenshots in VSH mode.
 * prxshot.ini: configuration file
+
 
 Meaning of the options in the prxshot.ini:
 
@@ -97,7 +99,8 @@ Meaning of the options in the prxshot.ini:
  ULJM05800 = 300 (Monster Hunter 3rd game using 300 msecs to take a screenshot)
  
  ULES01505 = 1500 (Dissidia Duodecim using 1.5 secs before taking the screenshot)
-                       
+
+
 # Values for the screenshot button
 
 # Select button        0x000001
@@ -117,6 +120,7 @@ Meaning of the options in the prxshot.ini:
 # Screen button        0x400000
 # Volume up button     0x100000
 # Volume down button   0x200000
+
 
 Changelog:
 v0.44:
