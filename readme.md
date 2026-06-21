@@ -5,6 +5,7 @@ originally an entry for the PSP Genesis competition 2011,
 sponsored by npt, psp-hacks.com, pspgen.com, pspslimhacks.com,
 exophase.com, pspcustomfirmware.com, daxhordes.org, gamegaz.jp,
 xtreamlua.com and wololo.net
+
 All credit for the original core C/C++ architecture goes to Codestation.
 
 What's New in v0.44:
