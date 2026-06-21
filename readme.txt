@@ -6,14 +6,14 @@ sponsored by npt, psp-hacks.com, pspgen.com, pspslimhacks.com,
 exophase.com, pspcustomfirmware.com, daxhordes.org, gamegaz.jp,
 xtreamlua.com and wololo.net
 
-All credit for the original core C/C++ architecture goes to Codestation.
-
 What's New in v0.44:
 - PSP-1000 (Phat) Memory Fix: Added a User RAM fallback. Screenshots in
   memory-heavy games (like MHFU) will no longer fail and create empty folders.
 - Single-Click Button Lock: Fixed the rapid-fire spam issue. Holding the
   button combo now takes exactly one picture and locks until released.
 - Modern Compiler Support: Updated to compile cleanly on modern pspdev.
+
+All credit for the original core C/C++ architecture goes to Codestation.
 
 This is a screenshot plugin that doesn't need to pause the game to take
 the capture (useful for online gaming) and classifies the images
@@ -28,23 +28,15 @@ for umd/iso games or:
 for homebrew or games in PBP format (because the homebrews have
 the same GAME_ID).
 
+
 Installation:
 Copy the prxshot directory to the seplugins directory (or anywhere you want)
 and add the plugin to the game.txt file (and/or vsh.txt if you want to).
 
-Note: prxshot++.prx is also included with this release, this is the c++ port
-of my plugin and is gonna be the default in later releases. For now the c and
-c++ versions have _exactly_ the same functionality so doesn't matter what one
-do you use. I included both in this version just because the C version is more
-tested. If you want to help fixing bugs, please use the c++ version when
-reporting them.
-
 Note for developers: this source code is a good starting point if you want
-to use OOP paradigm that c++ offers in your kernel code. I am gonna continue
-to improve it in later releases (like including some STL classes and implementing
-some sort of exception support if possible).
+to use OOP paradigm that c++ offers in your kernel code.
 
-How to use it: press the NOTE button to take a screenshot (or configure it
+How to use it: press the R-TRIGGER + SCREEN button combo to take a screenshot (or configure it
 to the key(s) that you want)
 
 The prxshot directory comes with these files:
