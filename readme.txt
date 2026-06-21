@@ -1,4 +1,4 @@
-prxshot v0.44 - Modernized/Patched by metapnant | Originally created by Codestation
+prxshot v0.44 - Patched by metapnant | Originally created by Codestation
 
 This is a modernized fork of the classic PRXShot plugin, 
 originally an entry for the PSP Genesis competition 2011,
