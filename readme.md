@@ -1,9 +1,19 @@
-prxshot v0.4 - Codestation
+prxshot v0.44 - Originally created by Codestation
 
-This Homebrew is an entry for the PSP Genesis competition 2011,
+This is a modernized fork of the classic PRXShot plugin, 
+originally an entry for the PSP Genesis competition 2011,
 sponsored by npt, psp-hacks.com, pspgen.com, pspslimhacks.com,
 exophase.com, pspcustomfirmware.com, daxhordes.org, gamegaz.jp,
 xtreamlua.com and wololo.net
+
+All credit for the original core C/C++ architecture goes to Codestation.
+
+What's New in v0.44:
+- PSP-1000 (Phat) Memory Fix: Added a User RAM fallback. Screenshots in
+  memory-heavy games (like MHFU) will no longer fail and create empty folders.
+- Single-Click Button Lock: Fixed the rapid-fire spam issue. Holding the
+  button combo now takes exactly one picture and locks until released.
+- Modern Compiler Support: Updated to compile cleanly on modern pspdev.
 
 This is a screenshot plugin that doesn't need to pause the game to take
 the capture (useful for online gaming) and classifies the images
@@ -117,6 +127,10 @@ Meaning of the options in the prxshot.ini:
 # Volume down button   0x200000
 
 Changelog:
+v0.44:
+[+]Added User RAM (Partition 2) fallback to fix empty folders on PSP-1000.
+[+]Implemented edge-trigger button lock to prevent screenshot spam.
+[!]Fixed code to support modern GCC 15 pspdev compilation.
 v0.4:
 [+]Implemented key timeout, so now you can add some delay to the screenshot
 button so doesn't interfere with the normal game operation.
