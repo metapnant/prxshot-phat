@@ -5,7 +5,6 @@ originally an entry for the PSP Genesis competition 2011,
 sponsored by npt, psp-hacks.com, pspgen.com, pspslimhacks.com,
 exophase.com, pspcustomfirmware.com, daxhordes.org, gamegaz.jp,
 xtreamlua.com and wololo.net
-
 All credit for the original core C/C++ architecture goes to Codestation.
 
 What's New in v0.44:
@@ -14,6 +13,7 @@ What's New in v0.44:
 - Single-Click Button Lock: Fixed the rapid-fire spam issue. Holding the
   button combo now takes exactly one picture and locks until released.
 - Modern Compiler Support: Updated to compile cleanly on modern pspdev.
+
 
 This is a screenshot plugin that doesn't need to pause the game to take
 the capture (useful for online gaming) and classifies the images
