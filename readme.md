@@ -14,7 +14,6 @@ What's New in v0.44:
   button combo now takes exactly one picture and locks until released.
 - Modern Compiler Support: Updated to compile cleanly on modern pspdev.
 
-
 This is a screenshot plugin that doesn't need to pause the game to take
 the capture (useful for online gaming) and classifies the images
 per game using their name and icons.
