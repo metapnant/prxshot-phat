@@ -1,4 +1,4 @@
-prxshot v0.44 - Originally created by Codestation
+prxshot v0.44 - Modernized/Patched by metapnant | Originally created by Codestation
 
 This is a modernized fork of the classic PRXShot plugin, 
 originally an entry for the PSP Genesis competition 2011,
@@ -70,9 +70,9 @@ Meaning of the options in the prxshot.ini:
   viewer that doesn't show the new screenshots but can cause freezes when 
   using Game Categories)
   
-* ScreenshotKey: 0x800000 by default. Change it to one of the values of the
-  table below (or a combination of them) to select the button(s) required for
-  the screenshot.
+* ScreenshotKey: 0x400200 by default (R-TRIGGER + SCREEN). Change it to one of the
+  values of the table below (or a combination of them) to select the button(s) required
+  for the screenshot.
   
 * KeyTimeout: 0 by default. Change it to a positive value (in millisecs) to
   delay the screenshot key(s) to that value. For example, setting it to 1000
